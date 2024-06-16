@@ -1,0 +1,139 @@
+.navbar {
+  background: #D8FFFE;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.25);
+  padding: 0 60px;
+}
+
+.navbar-menu-icon {
+  //width: 36px;
+  //height: 36px;
+  width: 50%;
+  height: 50%;
+  background-repeat: no-repeat;
+  background-image: url("icons/menu.svg");
+  background-size: 100%;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 52px;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid #00BB82;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.menu-active {
+  outline: 0;
+  border-color: transparent;
+  box-shadow: 0 0 0 2px #1D1D1D;;
+  transition: 0.2s;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.btn-navigation {
+  //width: 100px;
+  height: 47px;
+}
+
+/* xs */
+@media (min-width: 0px) {
+  .nav-text {
+    word-wrap: break-word;
+    word-break: break-all;
+    font-family: "Cruinn", serif;
+    font-size: 14px;
+    color: #1D1D1D;
+  }
+  .header-text {
+    font-family: "Montserrat Alternates", serif;
+    font-size: 28px;
+    font-weight: 800;
+    color: #3C3C3C;
+  }
+
+  .main-logo {
+    width: 45%;
+    height: 45%;
+  }
+
+  .navbar-toggler {
+    padding: 0.15rem 0.55rem;
+    &-icon {
+      width: 1.2em;
+      height: 1.2em;
+    }
+  }
+}
+
+/* sm */
+@media (min-width: 576px) {
+  .header-text {
+    font-family: "Montserrat Alternates", serif;
+    font-size: 32px;
+    font-weight: 800;
+    color: #3C3C3C;
+  }
+  .main-logo {
+    width: auto;
+    height: auto;
+  }
+
+  .navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    &-icon {
+      width: 1.5em;
+      height: 1.5em;
+    }
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+
+}
+
+/* lg */
+@media (min-width: 992px) {
+  .nav-text {
+    font-family: "Cruinn", serif;
+    font-size: 16px;
+    color: #1D1D1D;
+  }
+  .header-text {
+    font-family: "Montserrat Alternates", serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #3C3C3C;
+  }
+  .navbar-menu {
+    display: none;
+  }
+}
+
+/* xl */
+@media (min-width: 1200px) {
+  .header-text {
+    font-family: "Montserrat Alternates", serif;
+    font-size: 44px;
+    font-weight: 800;
+    color: #3C3C3C;
+  }
+}
+
+/* xxl */
+@media (min-width: 1400px) {
+  .nav-text {
+    font-family: "Cruinn", serif;
+    font-size: 18px;
+    color: #1D1D1D;
+  }
+}

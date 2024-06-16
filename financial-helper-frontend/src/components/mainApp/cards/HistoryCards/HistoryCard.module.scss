@@ -1,0 +1,26 @@
+.history {
+  &__card {
+    display: flex;
+    //gap: 0.5rem;
+    flex-direction: column;
+    background-color: rgba(0, 187, 130, 0.2);
+    border: 1px solid rgba(60, 60, 60, 0.15);
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+}
+
+
+/* xs */
+@media (min-width: 0px) {
+  .history__card {
+    gap: 0.2rem;
+  }
+}
+
+/* lg */
+@media (min-width: 992px) {
+  .history__card {
+    gap: 0.5rem;
+  }
+}

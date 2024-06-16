@@ -1,0 +1,25 @@
+.btn-action {
+  display: flex;
+  align-items: center;
+  font-family: "Cruinn", serif;
+  color: #FCFCFC;
+  width: 160px;
+  height: 64px;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  background-color: #B42D4A;
+  border: none;
+  transition: 0.4s;
+
+  &:hover {
+    background-color: #912D41;
+    color: #FCFCFC;
+    transition: 0.4s;
+  }
+
+  &:active {
+    background-color: #822638;
+    color: #FCFCFC;
+    transition: 0.4s;
+  }
+}

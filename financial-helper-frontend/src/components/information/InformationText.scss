@@ -1,0 +1,39 @@
+/* xs */
+@media (min-width: 0px) {
+  .title-text {
+    font-family: "Montserrat Alternates", serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #3C3C3C;
+  }
+}
+
+/* sm */
+@media (min-width: 576px) {
+  .title-text {
+    font-family: "Montserrat Alternates", serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #3C3C3C;
+  }
+}
+
+/* lg */
+@media (min-width: 992px) {
+  .title-text {
+    font-family: "Montserrat Alternates", serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #3C3C3C;
+  }
+}
+
+/* xl */
+@media (min-width: 1200px) {
+  .title-text {
+    font-family: "Montserrat Alternates", serif;
+    font-size: 44px;
+    font-weight: 500;
+    color: #3C3C3C;
+  }
+}

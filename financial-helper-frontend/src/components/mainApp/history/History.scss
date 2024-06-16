@@ -1,0 +1,52 @@
+
+.history {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+  gap: 16px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+
+  &__header {
+    font-family: "Montserrat Alternates", serif;
+    //font-size: 18px;
+    color: #3C3C3C;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px;
+    background-color: rgba(0, 187, 130, 0.2);
+    border: 1px solid rgba(60, 60, 60, 0.15);
+    border-radius: 5px;
+  }
+
+  &__cards {
+    display: flex;
+    flex-direction: column;
+    //gap: 16px;
+  }
+}
+
+/* xs */
+@media (min-width: 0px) {
+  .history {
+    &__header {
+      font-size: 14px;
+    }
+    &__cards {
+      gap: 12px
+    }
+  }
+}
+
+/* lg */
+@media (min-width: 992px) {
+  .history {
+    &__header {
+      font-size: 18px;
+    }
+    &__cards {
+      gap: 16px
+    }
+  }
+}

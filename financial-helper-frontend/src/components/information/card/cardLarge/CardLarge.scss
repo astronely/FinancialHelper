@@ -1,0 +1,76 @@
+.card-data-lg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 5px 10px;
+}
+
+.card-subtitle-data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bullet-data {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px 10px;
+  align-items: center;
+}
+
+.bullet {
+  display: flex;
+  align-content: center;
+}
+
+/* xs */
+@media (min-width: 0px) {
+  .card-title-lg {
+    font-family: "Cruinn", serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #00BB82;
+  }
+  .card-subtitle-lg {
+    display: flex;
+    font-family: "Montserrat Alternates", serif;
+    font-size: 14px;
+    color: #3C3C3C;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+}
+
+/* sm */
+@media (min-width: 576px) {
+  .card-title-lg {
+    font-family: "Cruinn", serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #00BB82;
+  }
+}
+
+/* lg */
+@media (min-width: 992px) {
+  .card-subtitle-lg {
+    display: flex;
+    font-family: "Montserrat Alternates", serif;
+    font-size: 16px;
+    color: #3C3C3C;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+}
+
+/* xl */
+@media (min-width: 1200px) {
+  .card-title-lg {
+    font-family: "Cruinn", serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #00BB82;
+  }
+}

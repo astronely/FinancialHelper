@@ -1,0 +1,41 @@
+.card-small-data {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 5px 5px;
+}
+@media (min-width: 0px) {
+  .card-small-title {
+    font-family: "Cruinn", serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #00BB82;
+  }
+
+  .card-small-subtitle {
+    display: flex;
+    font-family: "Montserrat Alternates", serif;
+    font-size: 14px;
+    color: #3C3C3C;
+    word-wrap: break-word;
+    //word-break: break-all;
+  }
+}
+
+/* lg */
+@media (min-width: 992px) {
+  .card-small-title {
+    font-family: "Cruinn", serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #00BB82;
+  }
+  .card-small-subtitle {
+    display: flex;
+    font-family: "Montserrat Alternates", serif;
+    font-size: 16px;
+    color: #3C3C3C;
+    word-wrap: break-word;
+    //word-break: break-all;
+  }
+}

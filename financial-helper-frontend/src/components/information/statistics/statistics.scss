@@ -1,0 +1,28 @@
+/* xs */
+@media (min-width: 0px) {
+  .statistic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0;
+  }
+  .statistic-title-position {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+  }
+}
+
+/* lg */
+@media (min-width: 992px) {
+  .statistic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 48px 0;
+  }
+  .statistic-title-position {
+    display: flex;
+    justify-content: center;
+  }
+}

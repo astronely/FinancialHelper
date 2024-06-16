@@ -1,0 +1,42 @@
+.picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.base-text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.main-title-block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 5px 20px;
+}
+
+.base-position {
+  display: flex;
+  align-items: center;
+}
+
+.base-info {
+  padding-bottom: 16px;
+}
+
+/* xs */
+@media (min-width: 0px) {
+  .picture-block {
+    height: 250px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .picture-block {
+    height: auto;
+  }
+}
